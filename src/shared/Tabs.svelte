@@ -13,6 +13,7 @@
       <li
         class:active={tab === activeTab}
         on:click={() => dispatch("tabChange", tab)}
+        on:keydown
       >
         {tab}
       </li>
