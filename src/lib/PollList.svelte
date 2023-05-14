@@ -21,12 +21,17 @@
   .polls {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 20px;
   }
   h2 {
     padding-top: 40px;
     text-align: center;
     color: #313131;
+  }
+  @media (width > 600px) {
+    .polls {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 </style>

@@ -31,12 +31,12 @@
   }
   li:hover {
     cursor: pointer;
-    color: orangered;
+    color: #009fe4;
   }
 
   li.active {
-    color: orangered;
+    color: #009fe4;
     padding-bottom: 5px;
-    border-bottom: 2px solid orangered;
+    border-bottom: 3px solid #009fe4;
   }
 </style>

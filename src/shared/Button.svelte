@@ -23,11 +23,11 @@
   }
 
   .primary {
-    background-color: orangered;
+    background-color: #009fe4;
     color: white;
   }
   .primary:hover {
-    background-color: #c9370e;
+    background-color: #0286be;
   }
   .secondary {
     background-color: #45c496;
